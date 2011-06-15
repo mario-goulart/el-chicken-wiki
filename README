@@ -1,0 +1,22 @@
+# El Chicken Wiki
+
+chicken-wiki.el provides some (hopefully) helpful commands to edit
+Chicken Wiki (http://wiki.call-cc.org) content.
+
+## Commands
+
+The commands bellow operate on regions:
+
+* `chicken-wiki-procedure`
+* `chicken-wiki-macro`
+* `chicken-wiki-parameter`
+* `chicken-wiki-constant`
+* `chicken-wiki-record`
+* `chicken-wiki-string`
+* `chicken-wiki-class`
+* `chicken-wiki-method`
+* `chicken-wiki-setter`
+* `chicken-wiki-type`
+* `chicken-wiki-highlight-scheme`
+* `chicken-wiki-highlight-elisp`
+* `chicken-wiki-highlight-c`
