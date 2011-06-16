@@ -1,4 +1,4 @@
-;;; Chicken-specific markup (https://wiki.call-cc.org/edit-help#extensions-for-chicken-documentation)
+;;; Chicken-specific markup (http://wiki.call-cc.org/edit-help#extensions-for-chicken-documentation)
 
 (defmacro chicken-wiki-define-command (command &optional open-tag close-tag)
   `(defun ,(intern (concat "chicken-wiki-" (symbol-name command))) (beg end)
