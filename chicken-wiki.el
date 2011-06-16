@@ -35,3 +35,25 @@
 (chicken-wiki-define-command highlight-c
                              "<enscript highlight=c>\n"
                              "</enscript>\n")
+
+
+
+;;; Egg documentation template
+
+(defvar chicken-wiki-egg-author "foo")
+
+(defun chicken-wiki-egg-doc-template (egg-name)
+  (interactive "MEgg name: ")
+  (insert (format
+           "[[tags: egg %s]]\n
+== %s \n
+[[toc:]]\n
+=== Introduction\n
+=== Author\n
+%s\n
+=== API\n
+=== License\n
+=== Version history\n
+==== 1.0\n
+Initial release\n
+" egg-name egg-name chicken-wiki-egg-author)))
