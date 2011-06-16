@@ -6,7 +6,9 @@ Chicken Wiki (http://wiki.call-cc.org) content.
 
 ## Commands
 
-The commands bellow operate on regions:
+The commands bellow operate on regions to generate Chicken-specific
+wiki markup (see
+http://wiki.call-cc.org/edit-help#extensions-for-chicken-documentation)
 
 * chicken-wiki-procedure
 * chicken-wiki-macro
@@ -22,3 +24,8 @@ The commands bellow operate on regions:
 * chicken-wiki-highlight-elisp
 * chicken-wiki-highlight-c
 
+
+The command `chicken-wiki-egg-doc-template` can be used to insert a
+template for egg documentation.  It'll prompt for the egg name and
+insert template data in the current buffer.  You can set the
+`chicken-wiki-egg-author` variable to customize your author section.
