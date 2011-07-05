@@ -22,6 +22,7 @@
 (chicken-wiki-define-command class)
 (chicken-wiki-define-command method)
 (chicken-wiki-define-command setter)
+(chicken-wiki-define-command syntax)
 (chicken-wiki-define-command type)
 
 (chicken-wiki-define-command highlight-scheme

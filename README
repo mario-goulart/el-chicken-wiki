@@ -19,6 +19,7 @@ http://wiki.call-cc.org/edit-help#extensions-for-chicken-documentation)
 * chicken-wiki-class
 * chicken-wiki-method
 * chicken-wiki-setter
+* chicken-wiki-syntax
 * chicken-wiki-type
 * chicken-wiki-highlight-scheme
 * chicken-wiki-highlight-elisp
