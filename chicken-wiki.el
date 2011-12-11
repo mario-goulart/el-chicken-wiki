@@ -55,6 +55,6 @@
 === API\n
 === License\n
 === Version history\n
-==== 1.0\n
-Initial release\n
+==== Version 1.0\n
+* Initial release\n
 " egg-name egg-name chicken-wiki-egg-author)))
