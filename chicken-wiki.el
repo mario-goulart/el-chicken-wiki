@@ -52,6 +52,7 @@
 === Introduction\n
 === Author\n
 %s\n
+=== Repository\n
 === API\n
 === License\n
 === Version history\n
